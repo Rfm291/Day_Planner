@@ -42,7 +42,7 @@ $(document).ready(function () {
   hourUpdater();
 
   // set up interval to check if current time needs to be updated
-  var interval = setInterval(hourUpdater, 15000);
+  var interval = setInterval(hourUpdater, 20000);
 
   // load any saved data from localStorage
   $('#hour-9 .description').val(localStorage.getItem('hour-9'));
