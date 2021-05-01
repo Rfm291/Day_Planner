@@ -1,11 +1,11 @@
 $(document).ready(function () {
   // listen for save button clicks
   $('.saveBtn').on('click', function () {
-    // get nearby values
+    // Gets nearby values
     var value = $(this).siblings('.description').val();
     var time = $(this).parent().attr('id');
 
-    // save in localStorage
+    // Saves in localStorage
     localStorage.setItem(time, value);
 
     // Show notification that item was saved to localStorage by adding class 'show'
@@ -14,7 +14,7 @@ $(document).ready(function () {
     // Timeout to remove 'show' class after 5 seconds
     setTimeout(function () {
       $('.notification').removeClass('show');
-    }, 5000);
+    }, 10000);
   });
 
   function hourUpdater() {
@@ -56,5 +56,5 @@ $(document).ready(function () {
   $('#hour-17 .description').val(localStorage.getItem('hour-17'));
 
   // display current day on page
-  $('#currentDay').text(moment().format('dddd, MMMM Do'));
+  $('#currentDay').text(moment().format('dddd, MMMM, do'));
 });
