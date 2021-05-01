@@ -37,11 +37,11 @@ The following animation demonstrates the application functionality:
 ![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
 
 ## Technologies Used
-<li a href = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">JQuery/Ajax</li>
-<li a href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">Bootstrap</li>
-<li a href = "https://use.fontawesome.com/releases/v5.8.1/css/all.css">FontAwesome</li>
-<li a href = "https://fonts.googleapis.com/css?family=Open+Sans&display=swap">Google Apis</li>
+<li> <a href = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">JQuery/Ajax</li>
+<li> <a href = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">Bootstrap</li>
+<li> <a href = "https://use.fontawesome.com/releases/v5.8.1/css/all.css">FontAwesome</li>
+<li> <a href = "https://fonts.googleapis.com/css?family=Open+Sans&display=swap">Google Apis</li>
 
 ## LINKS
-<li a href = "https://github.com/Rfm291?tab=repositories">Rfm291 Repos</li>
-<li a href = "">Deployed HTML</li>
+<li> <a href = "https://github.com/Rfm291?tab=repositories">Rfm291 Repos</li>
+<li> <a href = "https://rfm291.github.io/Day_Planner/">Deployed HTML</li>
